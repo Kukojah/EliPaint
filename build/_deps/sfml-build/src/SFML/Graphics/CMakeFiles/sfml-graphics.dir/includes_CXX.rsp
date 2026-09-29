@@ -1,0 +1,1 @@
+-I"C:/EliPaint/build/_deps/sfml-src/include" -I"C:/EliPaint/build/_deps/sfml-src/src" -isystem "C:/EliPaint/build/_deps/sfml-src/extlibs/headers/stb_image" -isystem "C:/EliPaint/build/_deps/sfml-src/extlibs/headers/glad/include" -isystem "C:/EliPaint/build/_deps/sfml-src/extlibs/headers/freetype2"
