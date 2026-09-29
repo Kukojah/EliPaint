@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/EliPaint/Application.cpp" "CMakeFiles/EliPaint.dir/Application.cpp.obj" "gcc" "CMakeFiles/EliPaint.dir/Application.cpp.obj.d"
+  "C:/EliPaint/GUI.cpp" "CMakeFiles/EliPaint.dir/GUI.cpp.obj" "gcc" "CMakeFiles/EliPaint.dir/GUI.cpp.obj.d"
   "C:/EliPaint/main.cpp" "CMakeFiles/EliPaint.dir/main.cpp.obj" "gcc" "CMakeFiles/EliPaint.dir/main.cpp.obj.d"
   )
 

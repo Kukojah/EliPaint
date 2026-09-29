@@ -68,12 +68,3 @@ C:/EliPaint/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/list_install_com
 C:/EliPaint/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/install.dir
 C:/EliPaint/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/install/local.dir
 C:/EliPaint/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/install/strip.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/package.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/package_source.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/edit_cache.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/rebuild_cache.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/list_install_components.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/install.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/install/local.dir
-C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/install/strip.dir

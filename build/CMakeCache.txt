@@ -30,10 +30,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/g++.exe
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=C:/msys64/ucrt64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -61,10 +59,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_C_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/gcc.exe
+//C compiler
+CMAKE_C_COMPILER:STRING=C:/msys64/ucrt64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -362,12 +358,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 FETCHCONTENT_UPDATES_DISCONNECTED_SFML:BOOL=OFF
 
 //Path to a file.
-FLAC_INCLUDE_DIR:PATH=C:/EliPaint/build/_deps/sfml-src/extlibs/headers
-
-//Path to a library.
-FLAC_LIBRARY:FILEPATH=C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a
-
-//Path to a file.
 FREETYPE_INCLUDE_DIR_freetype2:PATH=C:/EliPaint/build/_deps/sfml-src/extlibs/headers/freetype2
 
 //Path to a file.
@@ -375,21 +365,6 @@ FREETYPE_INCLUDE_DIR_ft2build:PATH=C:/EliPaint/build/_deps/sfml-src/extlibs/head
 
 //Path to a library.
 FREETYPE_LIBRARY:FILEPATH=C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a
-
-//Git command line client
-GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
-
-//Path to a file.
-OGG_INCLUDE_DIR:PATH=C:/EliPaint/build/_deps/sfml-src/extlibs/headers
-
-//Path to a library.
-OGG_LIBRARY:FILEPATH=C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a
-
-//Path to a file.
-OPENAL_INCLUDE_DIR:PATH=C:/EliPaint/build/_deps/sfml-src/extlibs/headers/AL
-
-//Path to a library.
-OPENAL_LIBRARY:FILEPATH=C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a
 
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
@@ -401,7 +376,7 @@ OPENGL_glu_LIBRARY:STRING=glu32
 SFML_BINARY_DIR:STATIC=C:/EliPaint/build/_deps/sfml-build
 
 //TRUE to build SFML's Audio module.
-SFML_BUILD_AUDIO:BOOL=TRUE
+SFML_BUILD_AUDIO:BOOL=FALSE
 
 //TRUE to generate the API documentation, FALSE to ignore it
 SFML_BUILD_DOC:BOOL=OFF
@@ -443,23 +418,8 @@ SFML_USE_STATIC_STD_LIBS:BOOL=FALSE
 //TRUE to use system dependencies, FALSE to use the bundled ones.
 SFML_USE_SYSTEM_DEPS:BOOL=FALSE
 
-//Path to a library.
-VORBISENC_LIBRARY:FILEPATH=C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a
-
-//Path to a library.
-VORBISFILE_LIBRARY:FILEPATH=C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a
-
-//Path to a file.
-VORBIS_INCLUDE_DIR:PATH=C:/EliPaint/build/_deps/sfml-src/extlibs/headers
-
-//Path to a library.
-VORBIS_LIBRARY:FILEPATH=C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a
-
 //Treat compiler warnings as errors
 WARNINGS_AS_ERRORS:BOOL=OFF
-
-//Dependencies for the target
-sfml-audio_LIB_DEPENDS:STATIC=general;sfml-system;
 
 //Dependencies for the target
 sfml-graphics_LIB_DEPENDS:STATIC=general;sfml-window;
@@ -619,7 +579,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -697,26 +657,14 @@ CPACK_SOURCE_7Z-ADVANCED:INTERNAL=1
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //Have include dinput.h
 DINPUT_H_FOUND:INTERNAL=1
-//Details about finding FLAC
-FIND_PACKAGE_MESSAGE_DETAILS_FLAC:INTERNAL=[C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libFLAC.a][C:/EliPaint/build/_deps/sfml-src/extlibs/headers][v()]
-//Details about finding OpenAL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenAL:INTERNAL=[C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a][C:/EliPaint/build/_deps/sfml-src/extlibs/headers/AL][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][ ][v()]
-//Details about finding VORBIS
-FIND_PACKAGE_MESSAGE_DETAILS_VORBIS:INTERNAL=[C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisenc.a;C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbisfile.a;C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libvorbis.a;C:/EliPaint/build/_deps/sfml-src/extlibs/libs-mingw/x64/libogg.a][C:/EliPaint/build/_deps/sfml-src/extlibs/headers][C:/EliPaint/build/_deps/sfml-src/extlibs/headers][v()]
-//ADVANCED property for variable: FLAC_INCLUDE_DIR
-FLAC_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: FLAC_LIBRARY
-FLAC_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_freetype2
 FREETYPE_INCLUDE_DIR_freetype2-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_ft2build
 FREETYPE_INCLUDE_DIR_ft2build-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FREETYPE_LIBRARY
 FREETYPE_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GIT_EXECUTABLE
-GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
 HAVE_SIZEOF_VOID_PTR:INTERNAL=TRUE
 //Have include stddef.h
@@ -725,28 +673,12 @@ HAVE_STDDEF_H:INTERNAL=1
 HAVE_STDINT_H:INTERNAL=1
 //Have include sys/types.h
 HAVE_SYS_TYPES_H:INTERNAL=1
-//ADVANCED property for variable: OGG_INCLUDE_DIR
-OGG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OGG_LIBRARY
-OGG_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENAL_INCLUDE_DIR
-OPENAL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENAL_LIBRARY
-OPENAL_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(void*)
 SIZEOF_VOID_PTR:INTERNAL=8
-//ADVANCED property for variable: VORBISENC_LIBRARY
-VORBISENC_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: VORBISFILE_LIBRARY
-VORBISFILE_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: VORBIS_INCLUDE_DIR
-VORBIS_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: VORBIS_LIBRARY
-VORBIS_LIBRARY-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/EliPaint
 

@@ -12,9 +12,11 @@ FetchContent_Declare(
 
 set(SFML_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(SFML_BUILD_DOC OFF CACHE BOOL "" FORCE)
+set(SFML_BUILD_AUDIO FALSE CACHE BOOL "" FORCE)
 
 FetchContent_MakeAvailable(SFML)
 
-add_executable(EliPaint main.cpp)
+
+add_executable(EliPaint main.cpp Application.cpp GUI.cpp)
 
 target_link_libraries(EliPaint PRIVATE sfml-graphics sfml-window sfml-system)

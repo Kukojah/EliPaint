@@ -258,18 +258,53 @@ sfml-graphics/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
 .PHONY : sfml-graphics/fast
 
-#=============================================================================
-# Target rules for targets named sfml-audio
+Application.obj: Application.cpp.obj
+.PHONY : Application.obj
 
-# Build rule for target.
-sfml-audio: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sfml-audio
-.PHONY : sfml-audio
+# target to build an object file
+Application.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EliPaint.dir\build.make CMakeFiles/EliPaint.dir/Application.cpp.obj
+.PHONY : Application.cpp.obj
 
-# fast build rule for target.
-sfml-audio/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-.PHONY : sfml-audio/fast
+Application.i: Application.cpp.i
+.PHONY : Application.i
+
+# target to preprocess a source file
+Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EliPaint.dir\build.make CMakeFiles/EliPaint.dir/Application.cpp.i
+.PHONY : Application.cpp.i
+
+Application.s: Application.cpp.s
+.PHONY : Application.s
+
+# target to generate assembly for a file
+Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EliPaint.dir\build.make CMakeFiles/EliPaint.dir/Application.cpp.s
+.PHONY : Application.cpp.s
+
+GUI.obj: GUI.cpp.obj
+.PHONY : GUI.obj
+
+# target to build an object file
+GUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EliPaint.dir\build.make CMakeFiles/EliPaint.dir/GUI.cpp.obj
+.PHONY : GUI.cpp.obj
+
+GUI.i: GUI.cpp.i
+.PHONY : GUI.i
+
+# target to preprocess a source file
+GUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EliPaint.dir\build.make CMakeFiles/EliPaint.dir/GUI.cpp.i
+.PHONY : GUI.cpp.i
+
+GUI.s: GUI.cpp.s
+.PHONY : GUI.s
+
+# target to generate assembly for a file
+GUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EliPaint.dir\build.make CMakeFiles/EliPaint.dir/GUI.cpp.s
+.PHONY : GUI.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -310,12 +345,17 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... EliPaint
-	@echo ... sfml-audio
 	@echo ... sfml-graphics
 	@echo ... sfml-main
 	@echo ... sfml-network
 	@echo ... sfml-system
 	@echo ... sfml-window
+	@echo ... Application.obj
+	@echo ... Application.i
+	@echo ... Application.s
+	@echo ... GUI.obj
+	@echo ... GUI.i
+	@echo ... GUI.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

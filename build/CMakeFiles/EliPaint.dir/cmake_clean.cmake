@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/EliPaint.dir/Application.cpp.obj"
+  "CMakeFiles/EliPaint.dir/Application.cpp.obj.d"
+  "CMakeFiles/EliPaint.dir/GUI.cpp.obj"
+  "CMakeFiles/EliPaint.dir/GUI.cpp.obj.d"
   "CMakeFiles/EliPaint.dir/main.cpp.obj"
   "CMakeFiles/EliPaint.dir/main.cpp.obj.d"
   "EliPaint.exe"

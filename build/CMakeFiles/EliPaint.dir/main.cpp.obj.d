@@ -1,4 +1,5 @@
 CMakeFiles/EliPaint.dir/main.cpp.obj: C:\EliPaint\main.cpp \
+ C:\EliPaint\Application.hpp C:\EliPaint\GUI.hpp C:\EliPaint\Config.hpp \
  C:/EliPaint/build/_deps/sfml-src/include/SFML/Graphics.hpp \
  C:/EliPaint/build/_deps/sfml-src/include/SFML/Window.hpp \
  C:/EliPaint/build/_deps/sfml-src/include/SFML/System.hpp \

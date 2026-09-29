@@ -44,7 +44,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/EliPaint/build/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
   include("C:/EliPaint/build/_deps/sfml-build/src/SFML/Network/cmake_install.cmake")
   include("C:/EliPaint/build/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
-  include("C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

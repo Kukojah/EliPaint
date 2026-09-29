@@ -6,6 +6,18 @@
   "output": "CMakeFiles/EliPaint.dir/main.cpp.obj"
 },
 {
+  "directory": "C:/EliPaint/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\EliPaint.dir\\includes_CXX.rsp -g -o CMakeFiles\\EliPaint.dir\\Application.cpp.obj -c C:\\EliPaint\\Application.cpp",
+  "file": "C:/EliPaint/Application.cpp",
+  "output": "CMakeFiles/EliPaint.dir/Application.cpp.obj"
+},
+{
+  "directory": "C:/EliPaint/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\EliPaint.dir\\includes_CXX.rsp -g -o CMakeFiles\\EliPaint.dir\\GUI.cpp.obj -c C:\\EliPaint\\GUI.cpp",
+  "file": "C:/EliPaint/GUI.cpp",
+  "output": "CMakeFiles/EliPaint.dir/GUI.cpp.obj"
+},
+{
   "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/System",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_SYSTEM_EXPORTS @CMakeFiles\\sfml-system.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-system.dir\\Clock.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\System\\Clock.cpp",
   "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/System/Clock.cpp",
@@ -502,131 +514,5 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG @CMakeFiles\\sfml-graphics.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-graphics.dir\\RenderTextureImplDefault.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Graphics\\RenderTextureImplDefault.cpp",
   "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.cpp",
   "output": "_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\ALCheck.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\ALCheck.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/ALCheck.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\AlResource.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\AlResource.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/AlResource.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\AudioDevice.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\AudioDevice.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/AudioDevice.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\Listener.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\Listener.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/Listener.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\Music.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\Music.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/Music.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\Sound.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\Sound.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/Sound.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundBuffer.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundBuffer.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundBuffer.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundBufferRecorder.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundBufferRecorder.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundBufferRecorder.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\InputSoundFile.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\InputSoundFile.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/InputSoundFile.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\OutputSoundFile.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\OutputSoundFile.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/OutputSoundFile.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundRecorder.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundRecorder.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundRecorder.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundSource.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundSource.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundSource.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundStream.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundStream.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundStream.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileFactory.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileFactory.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileFactory.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderFlac.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileReaderFlac.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderFlac.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderMp3.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileReaderMp3.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderMp3.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderOgg.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileReaderOgg.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderOgg.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderWav.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileReaderWav.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterFlac.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileWriterFlac.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterFlac.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterOgg.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileWriterOgg.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj"
-},
-{
-  "directory": "C:/EliPaint/build/_deps/sfml-build/src/SFML/Audio",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS @CMakeFiles\\sfml-audio.dir\\includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterWav.cpp.obj -c C:\\EliPaint\\build\\_deps\\sfml-src\\src\\SFML\\Audio\\SoundFileWriterWav.cpp",
-  "file": "C:/EliPaint/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterWav.cpp",
-  "output": "_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj"
 }
 ]
