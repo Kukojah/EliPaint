@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.4.3/CMakeSystem.cmake"
   "CMakeLists.txt"
   "sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
-  "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake"
   "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake"
-  "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in"
   "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Program Files/CMake/share/cmake-4.4/Modules/ExternalProject.cmake"
@@ -38,7 +36,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
   "sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
   "sfml-populate-prefix/src/sfml-populate-stamp/verify-sfml-populate.cmake"
   "sfml-populate-prefix/src/sfml-populate-stamp/extract-sfml-populate.cmake"

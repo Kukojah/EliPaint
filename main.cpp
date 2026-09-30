@@ -2,9 +2,4 @@
 
 Application App;
 
-int main()
-{
-    App.Run();
-
-    return 0;
-}
+int main() { return App.Run(); }

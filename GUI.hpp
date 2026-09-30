@@ -2,8 +2,12 @@
 
 class GUI
 {
-    public:
+    private:
         sf::RenderWindow window;
+    public:
         GUI();
         ~GUI();
+        int Update();
+        int RegisterInput();
+        bool IsWindowOpen();
 };
